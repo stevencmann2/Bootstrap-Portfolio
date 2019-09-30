@@ -1,51 +1,121 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Steven's Portfolio</title>
-  </head>
-  <body>
-     <!--Nav BAR, TO CHANGE WIDTH REMOVE CONTAINER-->
-     <div class="container">
-            <nav class="navbar navbar-light bg-light">
-                <span class="navbar-brand mb-0 h1">Steven Mann</span>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">About Me <span
-                                class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-    
-                    </div>
-                </div>
-            </nav>
-    
-            <!--Header section-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="page-header">
-                            <h1>Portfolio</h1>
-                        </div>
-                        <div class="col-sm-4">
-                        </div>
-                    </div>
-                </div>
+</head>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<body>
+    <!--Nav BAR, TO CHANGE WIDTH REMOVE CONTAINER-->
+
+    <nav class="navbar navbar-light bg-dark mb-4">
+    
+        <span class="navbar-brand mb-0 h1 p-3 bg-primary text-white">Steven Mann</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active text-white" href="index.html">About Me <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-white" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link text-white" href="contact.html">Contact</a>
+            </div>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- Heres a placeholder img http://placehold.it/150x150 -->
+    <!--Header section-->
+    <div class="container border border-secondary">
+        <div class="row border-bottom pb-2">
+            <div class="col-sm-8">
+                <div class="page-header">
+                    <h1 class="text-primary">Portfolio</h1>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+        </div>
+        <!--This contains the responsive portfolio images -->
+        <div class="row pt-3">
+            <div class="col-sm-4">
+                <div class="card bg-dark text-white">
+                    <img src="http://lorempixel.com/100/100" class="card-img" alt="placeholder images for my portfolio">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Portfolio Image 1</h5>
+                        <p class="card-text">This is the supporting text describing image 1</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+        
+            </div>
+
+                <div class="col-sm-4">
+                    <div class="card bg-dark text-white">
+                        <img src="http://lorempixel.com/100/100" class="card-img"
+                            alt="placeholder images for my portfolio">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Portfolio Image 2</h5>
+                            <p class="card-text">This is the supporting text for Image 2.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+             
+
+            <!--This is the next row of responsive images-->
+        <div class="row pt-3 pb-3">
+                    <div class="col-sm-4">
+                        <div class="card bg-dark text-white">
+                            <img src="http://lorempixel.com/100/100" class="card-img" alt="placeholder images for my portfolio">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Portfolio Image 3</h5>
+                                <p class="card-text">This is the supporting text for Image 3.</p>
+                                <p class="card-text">Last updated 3 mins ago</p>
+                            </div>
+                        </div>
+                        </div>
+        
+                        <div class="col-sm-4">
+                            <div class="card bg-dark text-white">
+                                <img src="http://lorempixel.com/100/100" class="card-img"
+                                    alt="placeholder images for my portfolio">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">Portfolio Image 4</h5>
+                                    <p class="card-text">This is the supporting text for Image 4.</p>
+                                    <p class="card-text">Last updated 3 mins ago</p>
+                                </div>
+                            </div>
+                            </div>
+                </div>
+            </div>
+
+                
+    </div>
+    </div>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+</body>
+
 </html>
